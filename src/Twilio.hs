@@ -27,8 +27,8 @@ import Control.Monad.Catch (MonadThrow)
 import Control.Applicative
 import Control.Monad
 import Unsafe.Coerce
-import Data.Time         hiding (defaultTimeLocale)
-import System.Locale
+import Data.Time         
+import System.Locale  hiding (defaultTimeLocale)
 import Data.Maybe
 import Control.Monad.Trans.Maybe
 
